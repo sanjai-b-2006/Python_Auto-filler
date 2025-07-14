@@ -1,0 +1,14 @@
+#To install all the requirements
+pip install -r requirements.txt
+
+# To run with a visible browser window
+python main.py --data-file data/attendees.csv --config-file config/form1_mapping.json
+
+# To run in headless mode (no visible browser)
+python main.py --data-file data/attendees.csv --config-file config/form1_mapping.json --headless
+
+# Use the Auto-Detector to Create a New Config if you have a new form and don't want to write the mapping file by hand, use this tool 
+python autodetect_fields.py --form-url forms/form1.html --data-file data/attendees.csv --output-file config/generated_mapping.json
+
+#To run GUI
+python gui.py
