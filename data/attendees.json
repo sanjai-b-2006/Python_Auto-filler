@@ -1,0 +1,30 @@
+[
+  {
+    "full_name": "Alice Johnson",
+    "email": "alice@example.com",
+    "age": 28,
+    "experience": "Intermediate",
+    "diet": "Vegan"
+  },
+  {
+    "full_name": "Bob Williams",
+    "email": "bob@example.com",
+    "age": 35,
+    "experience": "Advanced",
+    "diet": "None"
+  },
+  {
+    "full_name": "Charlie Brown",
+    "email": "charlie@example.com",
+    "age": 22,
+    "experience": "Beginner",
+    "diet": "Vegetarian"
+  },
+  {
+    "full_name": "Diana Prince",
+    "email": null,
+    "age": 45,
+    "experience": "Advanced",
+    "diet": null
+  }
+]
