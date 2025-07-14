@@ -1,0 +1,11 @@
+{
+  "form_url": "forms/form2.html",
+  "field_mappings": {
+    "full_name": "user_id",
+    "email": "user_email"
+  },
+  "submit_button": {
+    "type": "name",
+    "value": "submit_feedback"
+  }
+}

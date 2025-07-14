@@ -1,0 +1,14 @@
+{
+  "form_url": "forms/form1.html",
+  "field_mappings": {
+    "full_name": "participant_name",
+    "email": "contact_email",
+    "age": "user_age",
+    "experience": "skill_level",
+    "diet": "diet_req"
+  },
+  "submit_button": {
+    "type": "id",
+    "value": "submitBtn"
+  }
+}
